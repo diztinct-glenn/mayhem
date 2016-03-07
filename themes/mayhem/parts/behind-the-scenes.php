@@ -1,7 +1,8 @@
 <div id="behind-the-scenes" class="behind-the-scenes section">
-<h1>Behind the Scenes</h1>
+<div class="section-top"><a href="#about"><i class="fa fa-angle-up fa-3x arrow-nav"></i></a></div>
 
-<div id="gallery" class="grid">
+
+<div class="grid">
   <!-- width of .grid-sizer used for columnWidth -->
   <div class="grid-sizer"></div>
   <div class="grid-item">
@@ -111,6 +112,6 @@
 	</div>
 </div>
 
-
+<a href="#contact"><i class="fa fa-angle-down fa-3x arrow-nav"></i></a>
 
 </div>
