@@ -1,6 +1,9 @@
 <div id="behind-the-scenes" class="behind-the-scenes section">
-<div class="section-top"><a href="#about"><i class="fa fa-angle-up fa-3x arrow-nav"></i></a></div>
-
+	<div class="section-top">
+		<a href="#about">
+				<i class="fa fa-angle-up fa-3x arrow-nav hvr-bob"></i>
+		</a>
+	</div>
 
 <div class="grid">
   <!-- width of .grid-sizer used for columnWidth -->
@@ -112,6 +115,10 @@
 	</div>
 </div>
 
-<a href="#contact"><i class="fa fa-angle-down fa-3x arrow-nav"></i></a>
+<div class="section-bottom">
+	<a href="#contact">
+		<i class="fa fa-angle-down fa-3x arrow-nav hvr-hang"></i>
+	</a>
+</div>
 
 </div>

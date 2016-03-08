@@ -19,6 +19,7 @@
     {
         wp_enqueue_style('foundation_css', get_template_directory_uri().'/css/foundation.min.css');
         wp_enqueue_style('fluidbox_css', get_template_directory_uri().'/css/fluidbox.min.css');
+				wp_enqueue_style('hover_css', get_template_directory_uri().'/css/hover-min.css');
 				wp_enqueue_style('fontawesome_css', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css');
         wp_enqueue_style('main_css', get_template_directory_uri().'/style.css');
     }

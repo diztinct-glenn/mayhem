@@ -32,18 +32,18 @@ p, a {
   max-width: 100%;
 }
 .home .row .section {
-  padding: 30px;
+  padding: 0 30px 0;
   text-align: center;
 }
 .title-bar, .top-bar {
   position: absolute;
   z-index: 999;
 }
-/*.section-top {
-	width: 100%;
+.section-top {
+	/*width: 100%;
 	padding-top: 20px;
-	padding-bottom: 20px;
-}*/
+	padding-bottom: 20px;*/
+}
 .arrow-nav {
 	color: rgba(255, 255, 255, 0.8);
 }
@@ -127,6 +127,10 @@ video {
   .container, .overlay {
     display: none;
   }
+	
+	i {
+		display: none;
+	}
 }
 
 /**********

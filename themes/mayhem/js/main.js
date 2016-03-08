@@ -25,7 +25,7 @@ jQuery(function($) {
   $('a[rel="lightbox"]').fluidbox();
 
   // Scott says this is for page load but when it's commented out it still works fine?
-  // mayhemMenu();
+  mayhemMenu();
 
   $(window).scroll(function() {
 
@@ -50,7 +50,7 @@ jQuery(function($) {
       $('.top-bar a').removeClass('in-view');
     }
 
-    if (isScrolledIntoView('.news .section-top') && $news_in_view === false) {
+    if (isScrolledIntoView('.news .section-bottom') && $news_in_view === false) {
 
       $about_in_view = false;
       $behind_the_scenes_in_view = false;
@@ -62,7 +62,7 @@ jQuery(function($) {
       $news_in_view = true;
     }
 
-    if (isScrolledIntoView('.about .section-top')) {
+    if (isScrolledIntoView('.about .section-bottom')) {
 
       $news_in_view = false;
       $behind_the_scenes_in_view = false;
@@ -76,7 +76,7 @@ jQuery(function($) {
 
     }
 
-    if (isScrolledIntoView('.behind-the-scenes .section-top')) {
+    if (isScrolledIntoView('.behind-the-scenes .section-bottom')) {
 
       $news_in_view = false;
       $about_in_view = false;
@@ -90,7 +90,7 @@ jQuery(function($) {
 
     }
 
-    if (isScrolledIntoView('.contact .section-top')) {
+    if (isScrolledIntoView('.contact .section-bottom')) {
 
       $news_in_view = false;
       $about_in_view = false;
