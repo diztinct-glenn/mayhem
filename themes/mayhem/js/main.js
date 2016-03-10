@@ -38,16 +38,6 @@ jQuery(function($) {
     columnWidth: 0
   });
 
-
-  // Masonry's site says use layout to do this? Don't have a clue.
-  var $grid = $('.grid').masonry({});
-  // change size of item by toggling gigante class
-  $grid.on('click', '.grid-item', function() {
-    $(this).toggleClass('gigante');
-    // trigger layout after item size changes
-    $grid.masonry('layout');
-  });
-
   $('a[rel="lightbox"]').fluidbox();
 
   // Scott says this is for page load but when it's commented out it still works fine?

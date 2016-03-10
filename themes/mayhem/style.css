@@ -23,7 +23,8 @@ h1 {
 }
 p, a {
   font-family: oldlondon, sans-serif;
-  font-size: 26px;
+  font-size: 1.5em;
+	margin-bottom: 5px;
 }
 .home .row {
   padding-left: 0;
@@ -59,6 +60,9 @@ FLUIDBOX
 MASONRY
 ***********/
 
+.grid {
+	height: 75%;
+}
 
 /* fluid 5 columns */
 
@@ -141,8 +145,9 @@ HTML5 VID BACKGROUND
     display: none;
   }
   i {
-    display: none;
+    
   }
+	
 }
 
 /**********
